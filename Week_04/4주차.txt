@@ -1,0 +1,22 @@
+기본 자료형
+int - value
+(struct로 만듬)
+double - value
+(struct로 만듬)
+bool - value
+(struct로 만듬)
+char - value
+(struct로 만듬)
+
+String - reference
+(class로 만듬)
+
+
+사용자 자료형
+class - reference
+
+struct - value 
+
+arrInt는 값타입을 가리키기 때문애 출력이 0으로 되지만
+class인 arrUserInt는 참조 타입을 가리키기 때문에 출력이 null로 됨
+
