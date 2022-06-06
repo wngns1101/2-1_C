@@ -1,0 +1,10 @@
+c# 1주차
+
+객체지향언어 Object-Oriented Programming
+
+CLR: Common Language Runtime
+
+c#의 가장 기본 코드 단위는 class
+c언어의 기본 코드 단위는 함수
+
+namespace<class<매소드
