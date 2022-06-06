@@ -1,0 +1,58 @@
+c언어   c#
+절차   객체
+ ㅣ      clr
+ exe    exe
+
+파이썬 한 줄씩 해석
+c# 한 번에 해석해서 실행(코드 오류가 있으면 실행이 안 됨)
+
+객체지향언어 절차지향언어
+차이점: data method(기능) 합쳐져 있나 분리되어 있나 차이
+
+CUI(chacracter)     GUI(graphic) 
+     console         winform, wpf
+
+namespace
+  - class
+      - 변수, 메소드
+
+int a = 100;
+form form1 = newForm()
+
+c#
+정수     실수      문자       불       |  문자열
++-%/   10.0/3   char 'a'  true,false      ""
+
+byte < short < int < long
+  1         2       4       8
+
+
+값타입
+정수    int a = 1;
+실수    double b=0.0;
+문자    char c='a';
+불       bool d=false;
+-----------------------
+참조타입
+문자열 string e="abc";
+
+문자열은 다른 곳에 저장되고 위치 정보만 가짐
+
+부동소수점
+float 4
+double 8
+----------
+고정소수점
+decimal 16
+
+표 2-15 2byte
+
+문자열 정수형으로 형변환
+int.Parse();
+
+정수형 문자열로 형변환
+.ToString();
+
+정수 정수 정수
+실수 실수 실수
+실수 정수 실수
