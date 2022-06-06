@@ -1,0 +1,27 @@
+c# .net 언어 
+
+	                자료형
+           값(value)                   참조(reference)
+
+ 정수  실수  논리  문자   |           문자열
+   i       f       b      c                    s    
+int(+-)    double bool char          string
+uint(+)
+
+sbyte(음수 가능)
+byte(+)
+
+C# cast 연산자는 값 타입끼리 참조열타입끼리만 가능
+
+|| or
+&& and
+
+"a" + 1 = "a1"
+문자열 연산은 하나라도 문자열이 있으면 문자열연산으로 됨
+
+
+c#에서의 조건문은 무조건 true false만 들어옴
+
+c#에서의 switch문은 정수와 스트링까지 가능
+ 
+ 
