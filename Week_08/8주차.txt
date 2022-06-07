@@ -1,0 +1,81 @@
+
+
+int main(){
+char name[10] = "abc"; //stack에 char 10개 생성
+name = "abd"; 
+name이 배열이기 때문에 선언 이후에는 이퀄 연산으로
+초기화 불가
+strcpy(name, "abd"); // 선언 이후 초기화 하는 일이
+너무 빈번하게 일어나서 라이브러리 함수로 초기화
+---------------------------------------------
+char* name = "abc"; //stack에 char 하나만 생성
+abc의 주소는 code 구역으로 들어감 read only
+name = "abd"; //0
+abd도 code 구역에 있어서 포인팅만 바꿔주면 됨
+strcpy(name, "abd");//x
+라이브러리가 code 구역을 침범할 수 없음
+return 0;
+}
+
+int main(){
+	double arr[5]; //c언어
+	return 0;
+	arr이 double [5]개의 공간을 갖고있음
+}
+ 
+void static main(){
+	double[] arr; //c#
+	arr = new double[5];
+	arr은 double을 가리키는 변수이고
+	그 변수는 5개의 공간을 가리킴 
+}
+
+double arr[5];  //C언어
+
+double[] arr;       //C#
+arr = new double[5];
+
+Process 메모리(RAM) 구조(시험 나올것)
+             code       data        stack        heap
+------------------------------------------------------
+           |           ||          |             ㅣ
+           |           |           |              |
+........      |           |            |             |
+           |           |정적구역| 지역변수 | 동적할당영역
+           |           |           |              |(malloc(), free() /C
+           |           |           |              |new, delete /c++
+           |           |           |   p1        |new,(c#은 new밖에 없음 gc(free와 delete의 성능을 책임져주는 것) gc(garbage collector) /c#
+           |           |           |              | gc의 동작시점은 알 수 없음(치명적인 단점)
+------------------------------------------------------
+               r-o       |-------r/w-----------------|
+
+stack만 빼고 자동 초기화 가능
+
+c/c++      java/c#
+CLR           JRE
+종속         독립
+속도빠름 속도느림
+
+
+for(int i = 0; i < arr.Length; i++){
+	arr[i] = double.Parse(Console.ReadLine()); // console.readline은 문자열
+	
+	double.TryParse(Console.ReadLine(), out arr[i]);
+	되도록 두번째 방법으로(예외처리)
+}
+
+foreach(double i in arr) int가 아닌 arr안에 있는 타입 double로 해줘야했음
+{
+	Consoe.WriteLine(i);
+}
+
+static void Main(){
+	string result = multyply("3", "4"); //result = "7"
+}
+
+static string Multiply(string a, string b)
+{
+	int cvs_a = int.Parse(a);
+	int cvs_b = int.Parse(b);
+	return (cvs_a + cvs_b).ToString();
+}
