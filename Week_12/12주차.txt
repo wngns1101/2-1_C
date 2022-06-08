@@ -1,0 +1,13 @@
+하이딩 숨기는 것(new)
+
+오버라이딩 없앤 것처럼 하는 것(부모: virtual 자식: override)
+
+Parent p = new Child(); //실제로는 child를 가르킴
+Child c = (Child)p;
+
+했을 때
+
+하이딩은 p = 부모의 것 c = 자식의 것
+오버라이딩은 p = 자식의 것, c = 자식의 것
+
+오버라이딩은 하이딩도 가능
