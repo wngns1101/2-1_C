@@ -1,0 +1,13 @@
+file, directory 두 개만 공부함
+info들은 안 함
+
+시험에서
+file일 경우 delete 나올 수도
+directory는 exists 확인하고 createdirectory 만들 수도
+ 추가로 하위폴더 조회 나올 수 있음(생성, 조회, 하위폴더조회)
+
+기말에 비트 컨버터 안 나올예정
+
+binaryWrite / BinaryReader는 시험 안 나올 것임
+
+기말에 반드시 쓸 것 streamWrite / StreamReader
