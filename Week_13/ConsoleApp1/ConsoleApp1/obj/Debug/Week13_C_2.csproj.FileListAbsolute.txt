@@ -1,0 +1,8 @@
+C:\Users\이주훈\Desktop\2학년 1학기\c# 프로그래밍\Week_13\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\이주훈\Desktop\2학년 1학기\c# 프로그래밍\Week_13\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\이주훈\Desktop\2학년 1학기\c# 프로그래밍\Week_13\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\이주훈\Desktop\2학년 1학기\c# 프로그래밍\Week_13\ConsoleApp1\ConsoleApp1\obj\Debug\Week13_C_2.csproj.AssemblyReference.cache
+C:\Users\이주훈\Desktop\2학년 1학기\c# 프로그래밍\Week_13\ConsoleApp1\ConsoleApp1\obj\Debug\Week13_C_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\이주훈\Desktop\2학년 1학기\c# 프로그래밍\Week_13\ConsoleApp1\ConsoleApp1\obj\Debug\Week13_C_2.csproj.CoreCompileInputs.cache
+C:\Users\이주훈\Desktop\2학년 1학기\c# 프로그래밍\Week_13\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\이주훈\Desktop\2학년 1학기\c# 프로그래밍\Week_13\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
